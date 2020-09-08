@@ -68,24 +68,36 @@ I cleanned and reorganized the raw data collected from Glassdoor.com for data sc
 		- More established companies would pay higher salaries (age vs salary)
 		- High rating companies would pay higher salaries (rating vs salary)
 		- Jobs with long job descriptions would pay higher salaries (job description length vs salary)
-![alt text](https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/correlation.png "correlation")
+![alt text][logo1]
+
+[logo1]: https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/correlation.png "correlation"
 	- Surprisingly, the correlations are weak. Among age, rating, and description_length, age of the company seems to be correlated with salary. So, we may assume that established companies usually offer higher salaries for data scientists.
 
 - Companies from which states hire more data scientists?
-![alt text](https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/job%20state.png "job_state")
+![alt text][logo2]
+
+[logo2]: https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/job%20state.png "job_state"
 	- Companies based on California posts around 1/4 of data scientists jobs. Virginia posts almost 150 out of 1000 data scientists jobs. Because of the pandemic, remote jobs demand is also high.
 
 - Companies from which sectors hire more data scientists?
-![alt text](https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/sector.png "sector")
+![alt text][logo3]
+
+[logo3]: https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/sector.png "sector"
 	-	Companies from information technology industry posts ~300 out of 1000 data scientists jobs. The second hottest industry for data scientists is business services industry. 
 
 - Companies of which types of ownership hire more data scientists?
-![alt text](https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/type%20of%20ownership.png "type_of_ownership")
+![alt text][logo4]
+
+[logo4]: https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/type%20of%20ownership.png "type_of_ownership"
 	-	Not surprisingly, private companies post more than 500 out of 1000 data scientists jobs.
 
 - What is the most popular programming language for data scientist?
-![alt text](https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/python.png "python")
+![alt text][logo5]
+
+[logo5]: https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/python.png "python"
 	-	Python appears almost in 700 out of 1000 pieces of job descriptions.
 
 - What words are frequently mentioned across 1000 job descriptions?
-![alt text](https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/word%20cloud.png "word cloud")
+![alt text][logo6]
+
+[logo6]: https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/word%20cloud.png "word cloud"
