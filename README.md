@@ -101,3 +101,33 @@ I cleanned and reorganized the raw data collected from Glassdoor.com for data sc
 ![alt text][logo6]
 
 [logo6]: https://github.com/haorzeng1997/Data-Scientist-Salary-Project/blob/master/graph/word%20cloud.png "word cloud"
+	-	Experience, data science, machine learning and product sense are areas where job applicants should focus on.
+	
+## Model Building
+I wanted to build a regression model to help future data scientists get their up-to-date salary estimate.
+
+I performed:
+
+-   Multiple linear regression
+    Simple linear regression is easy to understand and can be a good starting point for building regression models. 
+    
+-   Lasso regression
+    The goal of lasso regression is to obtain the subset of predictors that minimizes prediction error for a quantitative response variable. If the number of significant features is small, Lasso will perform well. The data may show high levels of muticollinearity, so I tried Lasso regression. The Lasso regularization will actually set less-important predictors to 0.
+    
+-   Ridge regression
+    Ridge Regression is a technique for analyzing multiple regression data that suffer from multicollinearity. In contrast with Lasso, which uses L1 regularization, Ridge uses L2 regularization.
+    
+-   Random forest regressor
+    The data contains many categorical columns. Thus, I assume tree-based models would perform very well. 
+
+I would use  **"negative mean absolute error"**  to score each model. Since I am trying to predict a numerical value, I think mean absolute error (MAE) would be the most direct score to compare.
+
+## Model Performances
+
+The Random Forest regressor outperformed the other models on the test and validation sets.
+
+- Random forest regressor MAE: 16.69
+- Multiple linear regression MAE: 21.75
+- Ridge regression MAE: 21.97
+- Lasso regression MAE: 22.28
+
