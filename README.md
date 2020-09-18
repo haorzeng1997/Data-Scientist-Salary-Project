@@ -10,7 +10,7 @@
 
 - Engineered features from 1000 job descriptions to quantify the value of having hottest data science skills including python, excel, aws, spark, tensorflow. 
 
-- Optimized Linear, Lasso, Ridge and Random Forest Regressors using GridsearchCV
+- Optimized Linear, Lasso, Ridge and Random Forest Regressors using RandomizedSearchCV.
 
 ## Resources Used
 
